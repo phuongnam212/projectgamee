@@ -1,0 +1,201 @@
+# depslib dependency file v1.0
+1716366857 source:d:\golf\ball.cpp
+	"ball.h"
+	"Entity.h"
+	"math.h"
+	"Tile.h"
+	"hole.h"
+	"Wind.h"
+	<vector>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	<SDL_mixer.h>
+
+1715701824 d:\golf\ball.h
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_mixer.h>
+	<vector>
+	"hole.h"
+	"Tile.h"
+	"Wind.h"
+	"Entity.h"
+	"math.h"
+
+1713353040 d:\golf\hole.h
+	<SDL.h>
+	<SDL_image.h>
+	"Entity.h"
+	"math.h"
+
+1713352989 d:\golf\entity.h
+	<SDL.h>
+	<SDL_image.h>
+	"math.h"
+
+1715702115 d:\golf\math.h
+	<iostream>
+
+1713353050 d:\golf\tile.h
+	<SDL.h>
+	<SDL_image.h>
+	"Entity.h"
+	"math.h"
+
+1713353080 source:d:\golf\entity.cpp
+	"Entity.h"
+	<SDL.h>
+	<SDL_image.h>
+
+1713353084 source:d:\golf\hole.cpp
+	"hole.h"
+	"Entity.h"
+	"Math.h"
+	<SDL.h>
+
+1716367040 source:d:\golf\main.cpp
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	<SDL_mixer.h>
+	<iostream>
+	<vector>
+	<string.h>
+	"RenderWindows.h"
+	"Entity.h"
+	"ball.h"
+	"Tile.h"
+	"hole.h"
+	"Wind.h"
+
+1716297704 d:\golf\renderwindows.h
+	<SDL.h>
+	<SDL_ttf.h>
+	<SDL_image.h>
+	<vector>
+	"Entity.h"
+
+1716303888 source:d:\golf\renderwindows.cpp
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	<iostream>
+	"RenderWindows.h"
+	"Entity.h"
+
+1713353099 source:d:\golf\tile.cpp
+	"Tile.h"
+	"Entity.h"
+	"math.h"
+	<SDL.h>
+
+1715829352 source:d:\golf\wind.cpp
+	"Wind.h"
+
+1715829477 d:\golf\wind.h
+	"RenderWindows.h"
+	"datawind.h"
+
+1715790158 d:\golf\datawind.h
+
+1716366857 source:c:\golf\ball.cpp
+	"ball.h"
+	"Entity.h"
+	"math.h"
+	"Tile.h"
+	"hole.h"
+	"Wind.h"
+	<vector>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	<SDL_mixer.h>
+
+1715701824 c:\golf\ball.h
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_mixer.h>
+	<vector>
+	"hole.h"
+	"Tile.h"
+	"Wind.h"
+	"Entity.h"
+	"math.h"
+
+1713353040 c:\golf\hole.h
+	<SDL.h>
+	<SDL_image.h>
+	"Entity.h"
+	"math.h"
+
+1713352989 c:\golf\entity.h
+	<SDL.h>
+	<SDL_image.h>
+	"math.h"
+
+1715702115 c:\golf\math.h
+	<iostream>
+
+1713353050 c:\golf\tile.h
+	<SDL.h>
+	<SDL_image.h>
+	"Entity.h"
+	"math.h"
+
+1715829477 c:\golf\wind.h
+	"RenderWindows.h"
+	"datawind.h"
+
+1716297704 c:\golf\renderwindows.h
+	<SDL.h>
+	<SDL_ttf.h>
+	<SDL_image.h>
+	<vector>
+	"Entity.h"
+
+1715790158 c:\golf\datawind.h
+
+1713353080 source:c:\golf\entity.cpp
+	"Entity.h"
+	<SDL.h>
+	<SDL_image.h>
+
+1713353084 source:c:\golf\hole.cpp
+	"hole.h"
+	"Entity.h"
+	"Math.h"
+	<SDL.h>
+
+1716377352 source:c:\golf\main.cpp
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	<SDL_mixer.h>
+	<iostream>
+	<vector>
+	<string.h>
+	"RenderWindows.h"
+	"Entity.h"
+	"ball.h"
+	"Tile.h"
+	"hole.h"
+	"Wind.h"
+
+1716367292 source:c:\golf\renderwindows.cpp
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	<iostream>
+	"RenderWindows.h"
+	"Entity.h"
+
+1713353099 source:c:\golf\tile.cpp
+	"Tile.h"
+	"Entity.h"
+	"math.h"
+	<SDL.h>
+
+1715829352 source:c:\golf\wind.cpp
+	"Wind.h"
+
