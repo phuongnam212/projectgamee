@@ -14,10 +14,9 @@ Game có các yếu tố như gió, địa hình và các vật cản để tăn
 2. [Điều kiện cần có ](#điều-kiện-cần-có)
 3. [Cài Đặt](#cài-đặt)
 4. [Hướng Dẫn Sử Dụng](#hướng-dẫn-sử-dụng)
-5. [Cấu Trúc Dự Án](#cấu-trúc-dự-án)
+5. [Các vấn chính trong game ](#Các-phần-chính-trong-game)
 6. [Tài Liệu Tham Khảo](#tài-liệu-tham-khảo)
-7. [Liên Hệ](#liên-hệ)
-  
+7. [Cấu Trúc Dự Án](#cấu-trúc-dự-án)
   
 ## Điều kiện tiên quyết:  
 Trước khi tải hoặc clone project về, hãy lưu ý:  
@@ -50,10 +49,26 @@ Trước khi tải hoặc clone project về, hãy lưu ý:
   > khi đang tham gia chơi nếu click **X** thì sẽ quay lại menu ban đầu.
 ### Va chạm với các Tile 
 ![Tile](https://github.com/phuongnam212/projectgamee/assets/160800881/df00df13-0437-4c8d-b00e-0ace9979fcfe)
-    * Tại các màn chơi được thiết kế các tile để cản trở người chơi tiến đánh golf vào lỗ.*
+
+  Tại các màn chơi được thiết kế các tile để cản trở người chơi tiến đánh golf vào lỗ.
 ### Phần gió (*Wind*)
 ![WIind](https://github.com/phuongnam212/projectgamee/assets/160800881/0d34682d-9f3b-42d5-b59f-694f0c6a2aed)
-*Đây là phần được nâng cấp để tạo thêm phần thú vị cho game nói trên,khi vào các loại gió khác nhau bóng sẽ bị di chuyển lệch hướng ban đầu với tốc độ thay đổi *
+
+Đây là phần được nâng cấp để tạo thêm phần thú vị cho game nói trên,khi vào các loại gió khác nhau bóng sẽ bị di chuyển lệch hướng ban đầu với tốc độ thay đổi 
+## Các vấn đề chính trong game
+Để có thể hoàn thành game, cần giải quyết một số vấn đề chính sau:
+- Nhận sự kiện chuột sau đó cung cấp cho quả bóng một vận tốc để quả bóng có thể di chuyển theo hướng ta mong muốn. Tuỳ theo cách người dùng kéo thả chuột trên màn chơi từ vị trí A đến vị trí B, độ lớn của vận tốc và hướng của vận tốc sẽ thay đổi.
+- Trong di chuyển, quả bóng cần đáp ứng một vài yêu cầu:
+  + Vận tốc giảm dần qua thời gian do ma sát.
+  + Có phản xạ khi gặp vật cản hoặc khi di chuyển chạm vào khung màn hình.
+  + Rơi xuống lỗ khi gặp lỗ.
+- Ngoài ra game còn có một số các tính năng đặc biệt khác để tạo hứng thú cho người chơi ví dụ như địa hình gió làm thay đổi vận tốc.
+## Tài liệu tham khảo
+- [Hướng dẫn sử dụng SDL của lazyfoo](https://lazyfoo.net/tutorials/SDL/index.php)
+- Ý tưởng của game có lấy một phần từ project game ["_Twini-Golf_"](https://github.com/PolyMarsDev/Twini-Golf), game được cải tiến thêm các phần như menu, âm thanh game,đối tượng gió.
+- Xin gửi lời cảm ơn đến tác giả của project game nói trên , đồng thời gửi lời cảm ơn đến hai giảng viên của Trường Đại học Công nghệ, ĐHQGHN đã cung cấp những kiến thức cần có để tôi có thể hoàn thành project này.
+
+
 ## Cấu Trúc Dự Án
 
 ```plaintext
@@ -83,12 +98,4 @@ Trước khi tải hoặc clone project về, hãy lưu ý:
 │   ├── font                   # Thư mục chứa các tệp font chữ
 │   │   ├── font.ttf
 └── LICENSE                    # Tệp giấy phép (license) cho dự án
-
-
-'''
-
-## Tài liệu tham khảo
-- [Hướng dẫn sử dụng SDL của lazyfoo](https://lazyfoo.net/tutorials/SDL/index.php)
-- Ý tưởng của game có lấy một phần từ project game ["_Twini-Golf_"](https://github.com/PolyMarsDev/Twini-Golf), game sử dụng lại một số hình ảnh và sound effect của project nói trên chứ hoàn toàn không sao chép code hay modify project này.
-- Xin gửi lời cảm ơn đến tác giả của project game nói trên về sự giúp đỡ về mặt tài nguyên hình ảnh và sound effect, đồng thời gửi lời cảm ơn đến hai giảng viên của Trường Đại học Công nghệ, ĐHQGHN đã cung cấp những kiến thức cần có để tôi có thể hoàn thành project này.
 
