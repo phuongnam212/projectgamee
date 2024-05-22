@@ -84,6 +84,9 @@ Trước khi tải hoặc clone project về, hãy lưu ý:
 │   │   ├── font.ttf
 └── LICENSE                    # Tệp giấy phép (license) cho dự án
 
+
+'''
+
 ## Tài liệu tham khảo
 - [Hướng dẫn sử dụng SDL của lazyfoo](https://lazyfoo.net/tutorials/SDL/index.php)
 - Ý tưởng của game có lấy một phần từ project game ["_Twini-Golf_"](https://github.com/PolyMarsDev/Twini-Golf), game sử dụng lại một số hình ảnh và sound effect của project nói trên chứ hoàn toàn không sao chép code hay modify project này.
