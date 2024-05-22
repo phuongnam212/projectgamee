@@ -26,16 +26,58 @@ Trước khi tải hoặc clone project về, hãy lưu ý:
 * Nếu bạn quan tâm và muốn phát triển dự án hoặc đơn giản là chỉ chạy thử trên IDE, hãy đảm bảo rằng IDE của bạn có phục vụ cho ngôn ngữ C++ và
   có cài đặt thêm thư viện đồ hoạ SDL phục vụ cho C++ (Cách cài đặt SDL: https://lazyfoo.net/tutorials/SDL/01_hello_SDL/windows/index.php)
 ## Cài Đặt
-### Ảnh Quả Bóng
-![Quả Bóng](https://github.com/username/repository/raw/master/res/gfx/b.png)
 Để cài đặt và chạy dự án, bạn cần phải cài đặt các thư viện sau:
 
 - SDL2
 - SDL2_image
 - SDL2_ttf
 - SDL2_mixer
+## Hướng Dẫn Sử Dụng
 
-Bạn có thể cài đặt các thư viện này bằng các lệnh sau (dành cho Ubuntu):
+### Chơi Game
 
-```bash
-sudo apt-get install libsdl2-dev libsdl2-image-dev libsdl2-ttf-dev libsdl2-mixer-dev
+1. Khởi động game bằng cách chạy tệp thực thi đã biên dịch.
+2. Trên màn hình chính, chọn "Play Game" để bắt đầu.
+3. Sử dụng chuột để điều khiển và nhấn chuột trái để bắn bóng.
+
+### Màn Hình Chính
+![Màn Hình Chính](https://user-images.githubusercontent.com/89717384/170001630-6e0aef9c-eb44-455a-8b03-0fe87cfc9b22.png)
+
+### Màn Hình Chơi Game
+![Màn Hình Chơi Game](https://user-images.githubusercontent.com/89717384/170001630-6e0aef9c-eb44-455a-8b03-0fe87cfc9b22.png)
+
+## Cấu Trúc Dự Án
+
+```plaintext
+.
+├── README.md                  # Tệp hướng dẫn sử dụng và thông tin dự án
+├── main.cpp                   # Tệp nguồn chính của dự án
+├── RenderWindows.h            # Tệp tiêu đề cho lớp RenderWindows
+├── RenderWindows.cpp          # Tệp nguồn cho lớp RenderWindows
+├── Entity.h                   # Tệp tiêu đề cho lớp Entity
+├── Entity.cpp                 # Tệp nguồn cho lớp Entity
+├── ball.h                     # Tệp tiêu đề cho lớp Ball
+├── ball.cpp                   # Tệp nguồn cho lớp Ball
+├── Tile.h                     # Tệp tiêu đề cho lớp Tile
+├── Tile.cpp                   # Tệp nguồn cho lớp Tile
+├── hole.h                     # Tệp tiêu đề cho lớp Hole
+├── hole.cpp                   # Tệp nguồn cho lớp Hole
+├── Wind.h                     # Tệp tiêu đề cho lớp Wind
+├── Wind.cpp                   # Tệp nguồn cho lớp Wind
+├── res                        # Thư mục chứa các tài nguyên (graphics, âm thanh, font chữ)
+│   ├── gfx                    # Thư mục chứa các tệp hình ảnh
+│   │   ├── ball.png
+│   │   ├── hole.png
+│   │   ├── ...
+│   ├── sfx                    # Thư mục chứa các tệp âm thanh
+│   │   ├── charge.mp3
+│   │   ├── ...
+│   ├── font                   # Thư mục chứa các tệp font chữ
+│   │   ├── font.ttf
+└── LICENSE                    # Tệp giấy phép (license) cho dự án
+
+## Tài liệu tham khảo
+- [Hướng dẫn sử dụng SDL của lazyfoo](https://lazyfoo.net/tutorials/SDL/index.php)
+- Ý tưởng của game có lấy một phần từ project game ["_Twini-Golf_"](https://github.com/PolyMarsDev/Twini-Golf), game sử dụng lại một số hình ảnh và sound effect của project nói trên chứ hoàn toàn không sao chép code hay modify project này.
+- Xin gửi lời cảm ơn đến tác giả của project game nói trên về sự giúp đỡ về mặt tài nguyên hình ảnh và sound effect, đồng thời gửi lời cảm ơn đến hai giảng viên của Trường Đại học Công nghệ, ĐHQGHN đã cung cấp những kiến thức cần có để tôi có thể hoàn thành project này.
+
