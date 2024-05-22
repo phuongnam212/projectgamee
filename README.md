@@ -40,12 +40,20 @@ Trước khi tải hoặc clone project về, hãy lưu ý:
 2. Trên màn hình chính, chọn "Play Game" để bắt đầu.
 3. Sử dụng chuột để điều khiển và nhấn chuột trái để bắn bóng.
 
-### Màn Hình Chính
-![Màn Hình Chính](https://user-images.githubusercontent.com/89717384/170001630-6e0aef9c-eb44-455a-8b03-0fe87cfc9b22.png)
-
 ### Màn Hình Chơi Game
 ![Màn hình chính](https://github.com/phuongnam212/projectgamee/assets/160800881/d802b25e-19e0-476f-9dcd-a1ca1de86e91)
-
+ * Sử dụng chuột để click vào các phần trong menu .
+   > phần rules
+### Luật Chơi / Cách chơi 
+ ![rule](https://github.com/phuongnam212/projectgamee/assets/160800881/2e6f52c5-088c-4fec-af41-f0db5d2ce6ff)
+  > clik vào **EXIT** thoát khỏi chương trình
+  > khi đang tham gia chơi nếu click **X** thì sẽ quay lại menu ban đầu.
+### Va chạm với các Tile 
+![Tile](https://github.com/phuongnam212/projectgamee/assets/160800881/df00df13-0437-4c8d-b00e-0ace9979fcfe)
+    * Tại các màn chơi được thiết kế các tile để cản trở người chơi tiến đánh golf vào lỗ.*
+### Phần gió (*Wind*)
+![WIind](https://github.com/phuongnam212/projectgamee/assets/160800881/0d34682d-9f3b-42d5-b59f-694f0c6a2aed)
+*Đây là phần được nâng cấp để tạo thêm phần thú vị cho game nói trên,khi vào các loại gió khác nhau bóng sẽ bị di chuyển lệch hướng ban đầu với tốc độ thay đổi *
 ## Cấu Trúc Dự Án
 
 ```plaintext
