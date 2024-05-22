@@ -44,7 +44,7 @@ Trước khi tải hoặc clone project về, hãy lưu ý:
 ![Màn Hình Chính](https://user-images.githubusercontent.com/89717384/170001630-6e0aef9c-eb44-455a-8b03-0fe87cfc9b22.png)
 
 ### Màn Hình Chơi Game
-![Màn Hình Chơi Game](https://user-images.githubusercontent.com/89717384/170001630-6e0aef9c-eb44-455a-8b03-0fe87cfc9b22.png)
+![Màn hình chính](https://github.com/phuongnam212/projectgamee/assets/160800881/d802b25e-19e0-476f-9dcd-a1ca1de86e91)
 
 ## Cấu Trúc Dự Án
 
