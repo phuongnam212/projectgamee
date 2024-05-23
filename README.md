@@ -1,9 +1,9 @@
 # Dự Án Game Mini Golf
 
 ## Giới Thiệu
-Bài tập lớn "Lập trình nâng cao" (2324II_INT2215_21)
-Sinh viên : Đặng Phương Nam 
-Mã sinh viên : 23020631
+Bài tập lớn "Lập trình nâng cao" (2324II_INT2215_21)\\
+Sinh viên : Đặng Phương Nam \\
+Mã sinh viên : 23020631\\
 Đây là một dự án game mini golf sử dụng ngôn ngữ C++ được phát triển bằng thư viện SDL2.
 Trong game, người chơi sẽ điều khiển một quả bóng để đạt được mục tiêu là đưa bóng vào lỗ.
 Game có các yếu tố như gió, địa hình và các vật cản để tăng thêm tính thử thách.
@@ -66,7 +66,7 @@ Trước khi tải hoặc clone project về, hãy lưu ý:
 ## Tài liệu tham khảo
 - [Hướng dẫn sử dụng SDL của lazyfoo](https://lazyfoo.net/tutorials/SDL/index.php)
 - Ý tưởng của game có lấy một phần từ project game ["_Twini-Golf_"](https://github.com/PolyMarsDev/Twini-Golf), game được cải tiến thêm các phần như menu, âm thanh game,đối tượng gió.
-- Xin gửi lời cảm ơn đến tác giả của project game nói trên , đồng thời gửi lời cảm ơn đến hai giảng viên của Trường Đại học Công nghệ, ĐHQGHN đã cung cấp những kiến thức cần có để tôi có thể hoàn thành project này.
+- Xin gửi lời cảm ơn đến tác giả của project game nói trên , đồng thời gửi lời cảm ơn đến hai giảng viên là thầy Lê Quang Hiếu và thầy Ngô Xuân Trường của Trường Đại học Công nghệ, ĐHQGHN đã cung cấp những kiến thức cần có để tôi có thể hoàn thành project này.
 
 
 ## Cấu Trúc Dự Án
