@@ -1,10 +1,10 @@
 # Dự Án Game Mini Golf
 
 ## Giới Thiệu
-Bài tập lớn "Lập trình nâng cao" (2324II_INT2215_21)\\
-Sinh viên : Đặng Phương Nam \\
-Mã sinh viên : 23020631\\
-Đây là một dự án game mini golf sử dụng ngôn ngữ C++ được phát triển bằng thư viện SDL2.
+*Bài tập lớn "Lập trình nâng cao" (2324II_INT2215_21)
+*Sinh viên : Đặng Phương Nam
+*Mã sinh viên : 23020631
+*Đây là một dự án game mini golf sử dụng ngôn ngữ C++ được phát triển bằng thư viện SDL2.
 Trong game, người chơi sẽ điều khiển một quả bóng để đạt được mục tiêu là đưa bóng vào lỗ.
 Game có các yếu tố như gió, địa hình và các vật cản để tăng thêm tính thử thách.
 
